@@ -1,0 +1,14 @@
+channels:
+  - conda-forge
+dependencies:
+  # Python Deps
+  - python=3.7
+  - numpy
+  - matplotlib
+  - seaborn
+  - pandas
+  # R Deps
+  - r-base=4
+  - r-tidyverse
+  # Julia Deps
+  - julia

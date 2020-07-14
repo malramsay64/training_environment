@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# Exit script upon any error
+set -e
+
+TEMPFILE = "$(mktemp)"
+wget https://inter.fyi/data/programming -O "$TEMPFILE"
+unzip "$TEMPFILE"
