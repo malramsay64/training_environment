@@ -17,6 +17,6 @@ dependencies:
   - pandas==1.0.5
   # R Deps
   # - r-base==4.0.2
-  - r-tidyverse==1.2.1
+  # - r-tidyverse==1.2.1
   # Julia Deps
-  - julia==1.1.1
+  # - julia==1.1.1
